@@ -1,0 +1,44 @@
+const data = [
+    {
+        num:1,
+        isChanging:true
+    },
+    {
+        num:2,
+        isChanging:true
+    },
+    {
+        num:3,
+        isChanging:true
+    },
+    {
+        num:4,
+        isChanging:true
+    },
+    {
+        num:5,
+        isChanging:true
+    },
+    {
+        num:6,
+        isChanging:true
+    },
+    {
+        num:7,
+        isChanging:true
+    },
+    {
+        num:8,
+        isChanging:true
+    },
+    {
+        num:9,
+        isChanging:true
+    },
+    {
+        num:10,
+        isChanging:true
+    }
+]
+
+export default data

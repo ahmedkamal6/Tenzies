@@ -1,0 +1,50 @@
+.dice {
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 20px;
+  margin: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.dice--dot {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  place-self: center;
+}
+.top {
+  grid-row-start: 1;
+}
+.mid {
+  grid-row-start: 2;
+}
+.bot {
+  grid-row-start: 3;
+}
+.left {
+  grid-column: 1;
+}
+.center {
+  grid-column: 2;
+}
+.right {
+  grid-column: 3;
+}
+
+@media screen and (max-width:768px) {
+  .dice{
+    width: 70px;
+  height: 70px;
+  }
+  .dice--dot {
+    width: 20px;
+    height: 20px;
+  }
+}

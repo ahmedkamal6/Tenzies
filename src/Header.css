@@ -1,0 +1,21 @@
+.header--gameTitle {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #2b283a;
+}
+.header--instructions {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 50px 10px 50px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #4a4e74;
+}
